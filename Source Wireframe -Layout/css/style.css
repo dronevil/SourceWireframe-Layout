@@ -1,0 +1,172 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+  background: rgb(245, 249, 252);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav * {
+  color: rgb(39, 62, 82);
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+}
+
+header {
+  height: 60px;
+}
+
+nav h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0 0 40px;
+}
+
+nav>ul {
+  margin: 30px 400px 0 400px;
+}
+
+nav>ul>li {
+
+  margin: 0 40px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+nav>button {
+  background: rgb(48, 70, 89);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 20px 40px 0 0;
+  float: right;
+}
+
+main>section {
+  font-family: 'Open Sans', sans-serif;
+  margin: 100px 700px 0 115px;
+  width: 100%;
+  float: left;
+}
+
+main>section>h3 {
+  font-size: 1.3rem;
+  color: rgb(158, 174, 188);
+}
+
+main>section>h1 {
+  font-size: 4.5rem;
+  color: rgb(44, 66, 84);
+}
+
+main input[type=text] {
+  width: 17%;
+  border: none;
+  background: rgb(225, 233, 240);
+  padding: 12px 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(158, 174, 188);
+}
+
+main input[type=button] {
+  background: rgb(48, 70, 89);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main p {
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(72, 93, 112);
+}
+
+main img {
+  position: relative;
+  bottom: 350px;
+  right: 300px;
+  width: 800px;
+  float: right;
+}
+
+.features {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  position: relative;
+  bottom: 100px;
+  float: left;
+}
+
+.features a {
+  color: rgb(39, 62, 82);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.features h3 {
+  color: rgb(44, 66, 84);
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+.features p {
+  color: rgb(99, 117, 134);
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.abstract {
+  width: 25%;
+  padding-left: 115px;
+  float: left;
+}
+
+.abstract>img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
